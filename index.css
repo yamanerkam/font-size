@@ -1,0 +1,32 @@
+.sedan-regular {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Platypi';
+    src: url('/fonts/Platypi/Platypi-Italic-VariableFont_wght.ttf') format('truetype');
+    /* Add any additional font formats if necessary, like woff2 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jersey10Charted';
+    src: url('/fonts/Jersey_10_Charted.Jersey10Charted-Regular.ttf') format('truetype');
+    /* Add any additional font formats if necessary, like woff2 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.s {
+    font-size: 99px;
+    font-family: 'Jersey10Charted';
+}
