@@ -10,23 +10,26 @@
     font-style: italic;
 }
 
+
 @font-face {
-    font-family: 'Platypi';
-    src: url('/fonts/Platypi/Platypi-Italic-VariableFont_wght.ttf') format('truetype');
-    /* Add any additional font formats if necessary, like woff2 */
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Admiration Pains";
+    src:
+        url("Admiration Pains.ttf") format("opentype");
+    font-display: swap;
+
 }
 
 @font-face {
-    font-family: 'Jersey10Charted';
-    src: url('/fonts/Jersey_10_Charted.Jersey10Charted-Regular.ttf') format('truetype');
-    /* Add any additional font formats if necessary, like woff2 */
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Platypi";
+    src:
+        url("Platypi-VariableFont_wght.ttf") format("opentype");
 }
 
 .s {
-    font-size: 99px;
-    font-family: 'Jersey10Charted';
+    font-family: Admiration Pains, sans-serif;
+    font-weight: bold;
+}
+
+.b {
+    font-family: Platypi;
 }
